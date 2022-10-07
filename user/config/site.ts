@@ -12,35 +12,35 @@ import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
-  url: 'https://svelte-qwer.vercel.app',
-  title: 'QWER',
+  url: 'https://str3dlok.com',
+  title: 'Str3Dlok',
   subtitle: '🚀 QWER - Built using Svelte with ❤',
-  description: '🚀 QWER - Awesome Blog Starter, Built using Svelte with ❤',
+  description: 'Str3Dlok is learnind and teaching about Blender, Unreal and all in-between',
   lang: 'en',
-  timeZone: 'Asia/Taipei',
+  timeZone: 'Madrid/Spain',
   since: 2022,
   cover: SiteCover,
   author: {
-    name: 'John Doe',
-    status: '🚀',
+    name: 'Str3Dlok',
+    status: '🕹️',
     statusTip:
-      '<a href="https://github.com/kwchang0831/svelte-QWER" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >QWER</a> is Awesome !',
+      '<a href="https://github.com/SrGeneroso/str3dlok-qwer" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >Made by SRG !',
     avatar: Avatar,
     avatar_128: Avatar_128,
     avatar_48_png: Avatar_48_PNG,
     avatar_96_png: Avatar_96_PNG,
     avatar_192_png: Avatar_192_PNG,
     avatar_512_png: Avatar_512_PNG,
-    website: 'https://github.com/kwchang0831/svelte-QWER',
-    github: 'https://github.com/kwchang0831',
-    email: 'contact@kwchang0831.dev',
-    bio: `Peace begins <br/> With a smile`,
+    website: 'https://str3dlok.com/',
+    github: 'https://github.com/SrGeneroso/str3dlok-qwer',
+    email: 'str3dlok@gmail.com',
+    bio: `Imma pickle <br/> Pickle Rick!!`,
   },
 };
 
 export const headConfig: Site.Head = {
   // Used for IndieWeb
-  me: ['https://github.com/kwchang0831'],
+  me: ['https://str3dlok.com/'],
   custom: ({ dev }) =>
     dev
       ? [
@@ -49,16 +49,16 @@ export const headConfig: Site.Head = {
       : [
           // For Production Environment
           // Plausible
-          '<link rel="preconnect" href="https://plausible.kwchang0831.dev" />',
-          '<script defer type="text/partytown" data-domain="svelte-qwer.vercel.app" src="https://plausible.kwchang0831.dev/js/plausible.js"></script>',
+          // '<link rel="preconnect" href="https://plausible.kwchang0831.dev" />',
+          // '<script defer type="text/partytown" data-domain="svelte-qwer.vercel.app" src="https://plausible.kwchang0831.dev/js/plausible.js"></script>',
           // Google tag (gtag.js)
-          `<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-LQ73GWF6XT"></script>`,
-          `<script type="text/partytown">
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-LQ73GWF6XT');
-          </script>`,
+          // `<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-LQ73GWF6XT"></script>`,
+          // `<script type="text/partytown">
+          //   window.dataLayer = window.dataLayer || [];
+          //   function gtag(){dataLayer.push(arguments);}
+          //   gtag('js', new Date());
+          //   gtag('config', 'G-LQ73GWF6XT');
+          // </script>`,
         ],
 };
 
@@ -89,10 +89,10 @@ export const giscusConfig: Giscus.Config = {
   // src: 'https://giscus.kwchang0831.dev/client.js',
   enable: true,
   id: 'giscus-comment',
-  repo: 'kwchang0831/svelte-QWER',
-  repoId: 'R_kgDOHiLP-g',
-  category: 'Comments',
-  categoryId: 'DIC_kwDOHiLP-s4CQgDm',
+  repo: 'SrGeneroso/str3dlok-qwer',
+  repoId: 'R_kgDOIKEbJg',
+  category: 'Announcements',
+  categoryId: 'DIC_kwDOIKEbJs4CR2qQ',
   mapping: 'pathname',
   reactionsEnabled: '1',
   emitMetadata: '0',
